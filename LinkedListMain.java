@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
-import java.lang.*;
 
+/*Node Class or node of the linked list*/
 class Node{
   int data;
   Node next;
@@ -11,8 +11,10 @@ class Node{
   }
 }
 
+/*Linked list class*/
 class LinkedList{
   Node head;
+
 /*insert function insert at last index*/
   public void insert(int d){
     Node newNode=new Node(d);
@@ -185,20 +187,5 @@ class LinkedListMain{
           default: ps.println("Enter the valid options!");
         }
       }
-      // System.out.println(list.isEmpty());
-      // //list.insertAtStart(99);
-      // list.insert(5);
-      // list.insert(6);
-      // list.insert(4);
-      // list.insert(8);
-      // list.insert(3);
-      // //list.insertAt(0,52);
-      // //list.deleteAt(0);
-      // //list.deleteAtStart();
-      // //System.out.println(list.isEmpty());
-      // list.printList();
-      // list.reverse();
-      //
-      // list.printList();
   }
 }
