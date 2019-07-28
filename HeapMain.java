@@ -93,7 +93,7 @@ class HeapMain{
     Scanner scan = new Scanner(System.in);
     PrintStream ps = new PrintStream(System.out);
     while(true){
-      System.out.println("Enter the operations!\n 1. Insert \n 2. Display \n 3. Delete \n 4. Size \n 5. CheckForEmpty \n 6.Exit");
+      ps.println("Enter the operations!\n 1. Insert \n 2. Display \n 3. Delete \n 4. Size \n 5. CheckForEmpty \n 6.Exit");
       int T=scan.nextInt();
       switch(T){
         case 1: ps.println("Enter the no. of elements you want to insert in the heap!");
